@@ -8,6 +8,44 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div id="app">
+        <!-- Video Section -->
+        <div class="vid-container">
+            <video id="meditation-video" autoplay loop>
+                <source id="video-source" src="video/beach.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Audio Player Section -->
+        <div class="player-container">
+            <audio id="meditation-audio" autoplay loop>
+                <source id="audio-source" src="Sounds/beach.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Time Selection -->
+        <div id="time-select">
+            <button id="smaller-mins">2 Min</button>
+            <button id="medium-mins">5 Min</button>
+            <button id="long-mins">10 Min</button>
+        </div>
+
+        <!-- Time Display -->
+        <div class="time-display">
+            <span id="time-display">10:00</span>
+        </div>
+
+        <!-- Sound Switcher -->
+        <div class="sound-picker">
+            <button id="sound-1">Meditation A</button>
+            <button id="sound-2">Meditation B</button>
+        </div>
+
+        <!-- Play/Pause Button -->
+        <button class="play" id="play-pause-btn">Pause</button>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
